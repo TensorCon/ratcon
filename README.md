@@ -36,6 +36,8 @@ Commands:
   uniform    generate graphs with uniform weight
 ```
 
+### ratcon
+
 There are currently three optimization options at your disposal -- The first, `ratcon`, is a carving-width-based approach described in [***Carving-width and contraction trees for tensor networks***](https://arxiv.org/abs/1908.11034) to optimize _planar_ tensor network contractions:
 ```
 $ ratcon --help
@@ -59,6 +61,8 @@ Options:
                                   edge-contraction results  [default: False]
   --help                          Show this message and exit.
 ```
+
+### gencon
 
 The second, `gencon`, is a genetic algorithm-based approach to optimize arbitrary tensor network contractions:
 ```
@@ -87,6 +91,8 @@ Options:
   --write BOOLEAN                a flag to write results  [default: True]
   --help                         Show this message and exit.
 ```
+
+### netcon
 
 The third, `netcon`, is an approach described in [***Faster identification of optimal contraction sequences for tensor networks***](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.90.033315) and calculates the optimal contraction order for an arbitrary tensor network:
 ```
