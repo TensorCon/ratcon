@@ -1,0 +1,3 @@
+[submodule "netcon"]
+	path = netcon
+	url = https://github.com/TensorCon/netcon

@@ -1,0 +1,2465 @@
+{
+    "mu": [
+        {
+            "L": 5,
+            "mu": 83
+        },
+        {
+            "L": 7,
+            "mu": 27
+        },
+        {
+            "L": 10,
+            "mu": 14
+        },
+        {
+            "L": 11,
+            "mu": 9
+        },
+        {
+            "L": 9,
+            "mu": 14
+        },
+        {
+            "L": 8,
+            "mu": 27
+        },
+        {
+            "L": 6,
+            "mu": 83
+        },
+        {
+            "L": 12,
+            "mu": 9
+        }
+    ],
+    "acceptance probability": [
+        {
+            "L": 5,
+            "sigma": 0.0,
+            "acceptance probability": 1.0
+        },
+        {
+            "L": 5,
+            "sigma": 0.08,
+            "acceptance probability": 0.942
+        },
+        {
+            "L": 5,
+            "sigma": 0.16,
+            "acceptance probability": 0.95
+        },
+        {
+            "L": 5,
+            "sigma": 0.24,
+            "acceptance probability": 0.913
+        },
+        {
+            "L": 5,
+            "sigma": 0.32,
+            "acceptance probability": 0.88
+        },
+        {
+            "L": 5,
+            "sigma": 0.4,
+            "acceptance probability": 0.915
+        },
+        {
+            "L": 5,
+            "sigma": 0.48,
+            "acceptance probability": 0.89
+        },
+        {
+            "L": 5,
+            "sigma": 0.64,
+            "acceptance probability": 0.905
+        },
+        {
+            "L": 5,
+            "sigma": 0.8,
+            "acceptance probability": 0.88
+        },
+        {
+            "L": 5,
+            "sigma": 0.96,
+            "acceptance probability": 0.88
+        },
+        {
+            "L": 5,
+            "sigma": 1.12,
+            "acceptance probability": 0.96
+        },
+        {
+            "L": 5,
+            "sigma": 1.28,
+            "acceptance probability": 0.885
+        },
+        {
+            "L": 5,
+            "sigma": 1.44,
+            "acceptance probability": 0.865
+        },
+        {
+            "L": 5,
+            "sigma": 1.6,
+            "acceptance probability": 0.8
+        },
+        {
+            "L": 5,
+            "sigma": 1.76,
+            "acceptance probability": 0.78
+        },
+        {
+            "L": 5,
+            "sigma": 1.92,
+            "acceptance probability": 0.73
+        },
+        {
+            "L": 5,
+            "sigma": 2.08,
+            "acceptance probability": 0.62
+        },
+        {
+            "L": 5,
+            "sigma": 2.24,
+            "acceptance probability": 0.53
+        },
+        {
+            "L": 5,
+            "sigma": 2.4,
+            "acceptance probability": 0.505
+        },
+        {
+            "L": 5,
+            "sigma": 2.56,
+            "acceptance probability": 0.42
+        },
+        {
+            "L": 5,
+            "sigma": 2.72,
+            "acceptance probability": 0.335
+        },
+        {
+            "L": 5,
+            "sigma": 2.88,
+            "acceptance probability": 0.265
+        },
+        {
+            "L": 5,
+            "sigma": 3.04,
+            "acceptance probability": 0.21
+        },
+        {
+            "L": 5,
+            "sigma": 3.2,
+            "acceptance probability": 0.13
+        },
+        {
+            "L": 5,
+            "sigma": 3.36,
+            "acceptance probability": 0.115
+        },
+        {
+            "L": 5,
+            "sigma": 3.52,
+            "acceptance probability": 0.045
+        },
+        {
+            "L": 5,
+            "sigma": 3.68,
+            "acceptance probability": 0.08
+        },
+        {
+            "L": 5,
+            "sigma": 3.84,
+            "acceptance probability": 0.055
+        },
+        {
+            "L": 5,
+            "sigma": 4.0,
+            "acceptance probability": 0.025
+        },
+        {
+            "L": 5,
+            "sigma": 4.16,
+            "acceptance probability": 0.005
+        },
+        {
+            "L": 5,
+            "sigma": 4.32,
+            "acceptance probability": 0.025
+        },
+        {
+            "L": 5,
+            "sigma": 4.48,
+            "acceptance probability": 0.005
+        },
+        {
+            "L": 5,
+            "sigma": 4.64,
+            "acceptance probability": 0.02
+        },
+        {
+            "L": 5,
+            "sigma": 4.8,
+            "acceptance probability": 0.01
+        },
+        {
+            "L": 5,
+            "sigma": 4.96,
+            "acceptance probability": 0.005
+        },
+        {
+            "L": 5,
+            "sigma": 5.12,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 5,
+            "sigma": 5.28,
+            "acceptance probability": 0.01
+        },
+        {
+            "L": 5,
+            "sigma": 5.44,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 5,
+            "sigma": 5.6000000000000005,
+            "acceptance probability": 0.005
+        },
+        {
+            "L": 5,
+            "sigma": 5.76,
+            "acceptance probability": 0.005
+        },
+        {
+            "L": 5,
+            "sigma": 5.92,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 5,
+            "sigma": 6.08,
+            "acceptance probability": 0.005
+        },
+        {
+            "L": 5,
+            "sigma": 6.24,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 5,
+            "sigma": 6.4,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 5,
+            "sigma": 6.5600000000000005,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 5,
+            "sigma": 6.72,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 5,
+            "sigma": 6.88,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 5,
+            "sigma": 7.04,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 5,
+            "sigma": 7.2,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 5,
+            "sigma": 7.36,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 5,
+            "sigma": 7.5200000000000005,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 5,
+            "sigma": 7.68,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 5,
+            "sigma": 7.84,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 10,
+            "sigma": 0.0,
+            "acceptance probability": 1.0
+        },
+        {
+            "L": 10,
+            "sigma": 0.4,
+            "acceptance probability": 0.34
+        },
+        {
+            "L": 10,
+            "sigma": 0.8,
+            "acceptance probability": 0.68
+        },
+        {
+            "L": 10,
+            "sigma": 1.2000000000000002,
+            "acceptance probability": 0.64
+        },
+        {
+            "L": 10,
+            "sigma": 1.6,
+            "acceptance probability": 0.26
+        },
+        {
+            "L": 10,
+            "sigma": 2.0,
+            "acceptance probability": 0.02
+        },
+        {
+            "L": 10,
+            "sigma": 2.4000000000000004,
+            "acceptance probability": 0.02
+        },
+        {
+            "L": 10,
+            "sigma": 2.8000000000000003,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 10,
+            "sigma": 3.2,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 10,
+            "sigma": 3.6,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 10,
+            "sigma": 4.0,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 10,
+            "sigma": 4.4,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 10,
+            "sigma": 4.800000000000001,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 10,
+            "sigma": 5.2,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 10,
+            "sigma": 5.6000000000000005,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 10,
+            "sigma": 6.0,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 10,
+            "sigma": 6.4,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 10,
+            "sigma": 6.800000000000001,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 10,
+            "sigma": 7.2,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 10,
+            "sigma": 7.6000000000000005,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 5,
+            "sigma": 1.2000000000000002,
+            "acceptance probability": 0.96
+        },
+        {
+            "L": 5,
+            "sigma": 2.0,
+            "acceptance probability": 0.76
+        },
+        {
+            "L": 5,
+            "sigma": 2.4000000000000004,
+            "acceptance probability": 0.4
+        },
+        {
+            "L": 5,
+            "sigma": 2.8000000000000003,
+            "acceptance probability": 0.22
+        },
+        {
+            "L": 5,
+            "sigma": 3.6,
+            "acceptance probability": 0.1
+        },
+        {
+            "L": 5,
+            "sigma": 4.4,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 5,
+            "sigma": 4.800000000000001,
+            "acceptance probability": 0.04
+        },
+        {
+            "L": 5,
+            "sigma": 5.2,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 5,
+            "sigma": 6.0,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 5,
+            "sigma": 6.800000000000001,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 5,
+            "sigma": 7.6000000000000005,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 5,
+            "sigma": 0.25,
+            "acceptance probability": 0.86
+        },
+        {
+            "L": 5,
+            "sigma": 0.5,
+            "acceptance probability": 0.9
+        },
+        {
+            "L": 5,
+            "sigma": 0.75,
+            "acceptance probability": 0.88
+        },
+        {
+            "L": 5,
+            "sigma": 1.0,
+            "acceptance probability": 0.9
+        },
+        {
+            "L": 5,
+            "sigma": 1.25,
+            "acceptance probability": 0.9
+        },
+        {
+            "L": 5,
+            "sigma": 1.5,
+            "acceptance probability": 0.9
+        },
+        {
+            "L": 5,
+            "sigma": 1.75,
+            "acceptance probability": 0.82
+        },
+        {
+            "L": 5,
+            "sigma": 2.25,
+            "acceptance probability": 0.5
+        },
+        {
+            "L": 5,
+            "sigma": 2.5,
+            "acceptance probability": 0.42
+        },
+        {
+            "L": 5,
+            "sigma": 2.75,
+            "acceptance probability": 0.34
+        },
+        {
+            "L": 5,
+            "sigma": 3.0,
+            "acceptance probability": 0.3
+        },
+        {
+            "L": 5,
+            "sigma": 3.25,
+            "acceptance probability": 0.12
+        },
+        {
+            "L": 5,
+            "sigma": 3.5,
+            "acceptance probability": 0.12
+        },
+        {
+            "L": 5,
+            "sigma": 3.75,
+            "acceptance probability": 0.06
+        },
+        {
+            "L": 5,
+            "sigma": 4.25,
+            "acceptance probability": 0.02
+        },
+        {
+            "L": 5,
+            "sigma": 4.5,
+            "acceptance probability": 0.02
+        },
+        {
+            "L": 5,
+            "sigma": 4.75,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 11,
+            "sigma": 0.0,
+            "acceptance probability": 1.0
+        },
+        {
+            "L": 11,
+            "sigma": 0.25,
+            "acceptance probability": 0.98
+        },
+        {
+            "L": 11,
+            "sigma": 0.5,
+            "acceptance probability": 1.0
+        },
+        {
+            "L": 11,
+            "sigma": 0.75,
+            "acceptance probability": 0.86
+        },
+        {
+            "L": 11,
+            "sigma": 1.0,
+            "acceptance probability": 0.8
+        },
+        {
+            "L": 11,
+            "sigma": 1.25,
+            "acceptance probability": 0.3
+        },
+        {
+            "L": 11,
+            "sigma": 1.5,
+            "acceptance probability": 0.14
+        },
+        {
+            "L": 11,
+            "sigma": 1.75,
+            "acceptance probability": 0.02
+        },
+        {
+            "L": 11,
+            "sigma": 2.0,
+            "acceptance probability": 0.02
+        },
+        {
+            "L": 11,
+            "sigma": 2.25,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 11,
+            "sigma": 2.5,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 11,
+            "sigma": 2.75,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 11,
+            "sigma": 3.0,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 11,
+            "sigma": 3.25,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 11,
+            "sigma": 3.5,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 11,
+            "sigma": 3.75,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 11,
+            "sigma": 4.0,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 11,
+            "sigma": 4.25,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 11,
+            "sigma": 4.5,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 11,
+            "sigma": 4.75,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 10,
+            "sigma": 0.25,
+            "acceptance probability": 0.2
+        },
+        {
+            "L": 10,
+            "sigma": 0.5,
+            "acceptance probability": 0.26
+        },
+        {
+            "L": 10,
+            "sigma": 0.75,
+            "acceptance probability": 0.58
+        },
+        {
+            "L": 10,
+            "sigma": 1.0,
+            "acceptance probability": 0.76
+        },
+        {
+            "L": 10,
+            "sigma": 1.25,
+            "acceptance probability": 0.64
+        },
+        {
+            "L": 10,
+            "sigma": 1.5,
+            "acceptance probability": 0.38
+        },
+        {
+            "L": 10,
+            "sigma": 1.75,
+            "acceptance probability": 0.12
+        },
+        {
+            "L": 10,
+            "sigma": 2.25,
+            "acceptance probability": 0.04
+        },
+        {
+            "L": 10,
+            "sigma": 2.5,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 10,
+            "sigma": 2.75,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 10,
+            "sigma": 3.0,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 10,
+            "sigma": 3.25,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 10,
+            "sigma": 3.5,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 10,
+            "sigma": 3.75,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 10,
+            "sigma": 4.25,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 10,
+            "sigma": 4.5,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 10,
+            "sigma": 4.75,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 9,
+            "sigma": 0.0,
+            "acceptance probability": 1.0
+        },
+        {
+            "L": 9,
+            "sigma": 0.25,
+            "acceptance probability": 0.94
+        },
+        {
+            "L": 9,
+            "sigma": 0.5,
+            "acceptance probability": 0.98
+        },
+        {
+            "L": 9,
+            "sigma": 0.75,
+            "acceptance probability": 0.98
+        },
+        {
+            "L": 9,
+            "sigma": 1.0,
+            "acceptance probability": 0.86
+        },
+        {
+            "L": 9,
+            "sigma": 1.25,
+            "acceptance probability": 0.68
+        },
+        {
+            "L": 9,
+            "sigma": 1.5,
+            "acceptance probability": 0.36
+        },
+        {
+            "L": 9,
+            "sigma": 1.75,
+            "acceptance probability": 0.22
+        },
+        {
+            "L": 9,
+            "sigma": 2.0,
+            "acceptance probability": 0.1
+        },
+        {
+            "L": 9,
+            "sigma": 2.25,
+            "acceptance probability": 0.04
+        },
+        {
+            "L": 9,
+            "sigma": 2.5,
+            "acceptance probability": 0.02
+        },
+        {
+            "L": 9,
+            "sigma": 2.75,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 9,
+            "sigma": 3.0,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 9,
+            "sigma": 3.25,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 9,
+            "sigma": 3.5,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 9,
+            "sigma": 3.75,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 9,
+            "sigma": 4.0,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 9,
+            "sigma": 4.25,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 9,
+            "sigma": 4.5,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 9,
+            "sigma": 4.75,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 8,
+            "sigma": 0.0,
+            "acceptance probability": 1.0
+        },
+        {
+            "L": 8,
+            "sigma": 0.25,
+            "acceptance probability": 0.22
+        },
+        {
+            "L": 8,
+            "sigma": 0.5,
+            "acceptance probability": 0.32
+        },
+        {
+            "L": 8,
+            "sigma": 0.75,
+            "acceptance probability": 0.6
+        },
+        {
+            "L": 8,
+            "sigma": 1.0,
+            "acceptance probability": 0.54
+        },
+        {
+            "L": 8,
+            "sigma": 1.25,
+            "acceptance probability": 0.72
+        },
+        {
+            "L": 8,
+            "sigma": 1.5,
+            "acceptance probability": 0.62
+        },
+        {
+            "L": 8,
+            "sigma": 1.75,
+            "acceptance probability": 0.46
+        },
+        {
+            "L": 8,
+            "sigma": 2.0,
+            "acceptance probability": 0.36
+        },
+        {
+            "L": 8,
+            "sigma": 2.25,
+            "acceptance probability": 0.2
+        },
+        {
+            "L": 8,
+            "sigma": 2.5,
+            "acceptance probability": 0.12
+        },
+        {
+            "L": 8,
+            "sigma": 2.75,
+            "acceptance probability": 0.04
+        },
+        {
+            "L": 8,
+            "sigma": 3.0,
+            "acceptance probability": 0.04
+        },
+        {
+            "L": 8,
+            "sigma": 3.25,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 8,
+            "sigma": 3.5,
+            "acceptance probability": 0.02
+        },
+        {
+            "L": 8,
+            "sigma": 3.75,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 8,
+            "sigma": 4.0,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 8,
+            "sigma": 4.25,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 8,
+            "sigma": 4.5,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 8,
+            "sigma": 4.75,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 7,
+            "sigma": 0.0,
+            "acceptance probability": 1.0
+        },
+        {
+            "L": 7,
+            "sigma": 0.25,
+            "acceptance probability": 1.0
+        },
+        {
+            "L": 7,
+            "sigma": 0.5,
+            "acceptance probability": 0.98
+        },
+        {
+            "L": 7,
+            "sigma": 0.75,
+            "acceptance probability": 0.98
+        },
+        {
+            "L": 7,
+            "sigma": 1.0,
+            "acceptance probability": 0.98
+        },
+        {
+            "L": 7,
+            "sigma": 1.25,
+            "acceptance probability": 0.84
+        },
+        {
+            "L": 7,
+            "sigma": 1.5,
+            "acceptance probability": 0.84
+        },
+        {
+            "L": 7,
+            "sigma": 1.75,
+            "acceptance probability": 0.7
+        },
+        {
+            "L": 7,
+            "sigma": 2.0,
+            "acceptance probability": 0.38
+        },
+        {
+            "L": 7,
+            "sigma": 2.25,
+            "acceptance probability": 0.3
+        },
+        {
+            "L": 7,
+            "sigma": 2.5,
+            "acceptance probability": 0.06
+        },
+        {
+            "L": 7,
+            "sigma": 2.75,
+            "acceptance probability": 0.18
+        },
+        {
+            "L": 7,
+            "sigma": 3.0,
+            "acceptance probability": 0.02
+        },
+        {
+            "L": 7,
+            "sigma": 3.25,
+            "acceptance probability": 0.04
+        },
+        {
+            "L": 7,
+            "sigma": 3.5,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 7,
+            "sigma": 3.75,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 7,
+            "sigma": 4.0,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 7,
+            "sigma": 4.25,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 7,
+            "sigma": 4.5,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 7,
+            "sigma": 4.75,
+            "acceptance probability": 0.02
+        },
+        {
+            "L": 6,
+            "sigma": 0.0,
+            "acceptance probability": 1.0
+        },
+        {
+            "L": 6,
+            "sigma": 0.25,
+            "acceptance probability": 0.14
+        },
+        {
+            "L": 6,
+            "sigma": 0.5,
+            "acceptance probability": 0.12
+        },
+        {
+            "L": 6,
+            "sigma": 0.75,
+            "acceptance probability": 0.14
+        },
+        {
+            "L": 6,
+            "sigma": 1.0,
+            "acceptance probability": 0.12
+        },
+        {
+            "L": 6,
+            "sigma": 1.25,
+            "acceptance probability": 0.18
+        },
+        {
+            "L": 6,
+            "sigma": 1.5,
+            "acceptance probability": 0.28
+        },
+        {
+            "L": 6,
+            "sigma": 1.75,
+            "acceptance probability": 0.42
+        },
+        {
+            "L": 6,
+            "sigma": 2.0,
+            "acceptance probability": 0.36
+        },
+        {
+            "L": 6,
+            "sigma": 2.25,
+            "acceptance probability": 0.24
+        },
+        {
+            "L": 6,
+            "sigma": 2.5,
+            "acceptance probability": 0.28
+        },
+        {
+            "L": 6,
+            "sigma": 2.75,
+            "acceptance probability": 0.16
+        },
+        {
+            "L": 6,
+            "sigma": 3.0,
+            "acceptance probability": 0.22
+        },
+        {
+            "L": 6,
+            "sigma": 3.25,
+            "acceptance probability": 0.08
+        },
+        {
+            "L": 6,
+            "sigma": 3.5,
+            "acceptance probability": 0.08
+        },
+        {
+            "L": 6,
+            "sigma": 3.75,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 6,
+            "sigma": 4.0,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 6,
+            "sigma": 4.25,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 6,
+            "sigma": 4.5,
+            "acceptance probability": 0.02
+        },
+        {
+            "L": 6,
+            "sigma": 4.75,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 6,
+            "sigma": 0.1,
+            "acceptance probability": 0.12
+        },
+        {
+            "L": 6,
+            "sigma": 0.2,
+            "acceptance probability": 0.12
+        },
+        {
+            "L": 6,
+            "sigma": 0.30000000000000004,
+            "acceptance probability": 0.16
+        },
+        {
+            "L": 6,
+            "sigma": 0.4,
+            "acceptance probability": 0.08
+        },
+        {
+            "L": 6,
+            "sigma": 0.6000000000000001,
+            "acceptance probability": 0.22
+        },
+        {
+            "L": 6,
+            "sigma": 0.7000000000000001,
+            "acceptance probability": 0.06
+        },
+        {
+            "L": 6,
+            "sigma": 0.8,
+            "acceptance probability": 0.1
+        },
+        {
+            "L": 6,
+            "sigma": 0.9,
+            "acceptance probability": 0.32
+        },
+        {
+            "L": 6,
+            "sigma": 1.1,
+            "acceptance probability": 0.1
+        },
+        {
+            "L": 6,
+            "sigma": 1.2000000000000002,
+            "acceptance probability": 0.28
+        },
+        {
+            "L": 6,
+            "sigma": 1.3,
+            "acceptance probability": 0.22
+        },
+        {
+            "L": 6,
+            "sigma": 1.4000000000000001,
+            "acceptance probability": 0.22
+        },
+        {
+            "L": 6,
+            "sigma": 1.6,
+            "acceptance probability": 0.48
+        },
+        {
+            "L": 6,
+            "sigma": 1.7000000000000002,
+            "acceptance probability": 0.32
+        },
+        {
+            "L": 6,
+            "sigma": 1.8,
+            "acceptance probability": 0.4
+        },
+        {
+            "L": 6,
+            "sigma": 1.9000000000000001,
+            "acceptance probability": 0.56
+        },
+        {
+            "L": 6,
+            "sigma": 2.1,
+            "acceptance probability": 0.42
+        },
+        {
+            "L": 6,
+            "sigma": 2.2,
+            "acceptance probability": 0.42
+        },
+        {
+            "L": 6,
+            "sigma": 2.3000000000000003,
+            "acceptance probability": 0.46
+        },
+        {
+            "L": 6,
+            "sigma": 2.4000000000000004,
+            "acceptance probability": 0.34
+        },
+        {
+            "L": 6,
+            "sigma": 2.6,
+            "acceptance probability": 0.24
+        },
+        {
+            "L": 6,
+            "sigma": 2.7,
+            "acceptance probability": 0.24
+        },
+        {
+            "L": 6,
+            "sigma": 2.8000000000000003,
+            "acceptance probability": 0.22
+        },
+        {
+            "L": 6,
+            "sigma": 2.9000000000000004,
+            "acceptance probability": 0.2
+        },
+        {
+            "L": 6,
+            "sigma": 3.1,
+            "acceptance probability": 0.1
+        },
+        {
+            "L": 6,
+            "sigma": 3.2,
+            "acceptance probability": 0.04
+        },
+        {
+            "L": 6,
+            "sigma": 3.3000000000000003,
+            "acceptance probability": 0.02
+        },
+        {
+            "L": 6,
+            "sigma": 3.4000000000000004,
+            "acceptance probability": 0.06
+        },
+        {
+            "L": 6,
+            "sigma": 3.6,
+            "acceptance probability": 0.08
+        },
+        {
+            "L": 6,
+            "sigma": 3.7,
+            "acceptance probability": 0.02
+        },
+        {
+            "L": 6,
+            "sigma": 3.8000000000000003,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 6,
+            "sigma": 3.9000000000000004,
+            "acceptance probability": 0.02
+        },
+        {
+            "L": 6,
+            "sigma": 4.1000000000000005,
+            "acceptance probability": 0.04
+        },
+        {
+            "L": 6,
+            "sigma": 4.2,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 6,
+            "sigma": 4.3,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 6,
+            "sigma": 4.4,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 6,
+            "sigma": 4.6000000000000005,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 6,
+            "sigma": 4.7,
+            "acceptance probability": 0.02
+        },
+        {
+            "L": 6,
+            "sigma": 4.800000000000001,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 6,
+            "sigma": 4.9,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 8,
+            "sigma": 0.1,
+            "acceptance probability": 0.6
+        },
+        {
+            "L": 8,
+            "sigma": 0.2,
+            "acceptance probability": 0.36
+        },
+        {
+            "L": 8,
+            "sigma": 0.30000000000000004,
+            "acceptance probability": 0.18
+        },
+        {
+            "L": 8,
+            "sigma": 0.4,
+            "acceptance probability": 0.2
+        },
+        {
+            "L": 8,
+            "sigma": 0.6000000000000001,
+            "acceptance probability": 0.2
+        },
+        {
+            "L": 8,
+            "sigma": 0.7000000000000001,
+            "acceptance probability": 0.36
+        },
+        {
+            "L": 8,
+            "sigma": 0.8,
+            "acceptance probability": 0.42
+        },
+        {
+            "L": 8,
+            "sigma": 0.9,
+            "acceptance probability": 0.56
+        },
+        {
+            "L": 8,
+            "sigma": 1.1,
+            "acceptance probability": 0.62
+        },
+        {
+            "L": 8,
+            "sigma": 1.2000000000000002,
+            "acceptance probability": 0.66
+        },
+        {
+            "L": 8,
+            "sigma": 1.3,
+            "acceptance probability": 0.56
+        },
+        {
+            "L": 8,
+            "sigma": 1.4000000000000001,
+            "acceptance probability": 0.8
+        },
+        {
+            "L": 8,
+            "sigma": 1.6,
+            "acceptance probability": 0.56
+        },
+        {
+            "L": 8,
+            "sigma": 1.7000000000000002,
+            "acceptance probability": 0.56
+        },
+        {
+            "L": 8,
+            "sigma": 1.8,
+            "acceptance probability": 0.48
+        },
+        {
+            "L": 8,
+            "sigma": 1.9000000000000001,
+            "acceptance probability": 0.38
+        },
+        {
+            "L": 8,
+            "sigma": 2.1,
+            "acceptance probability": 0.34
+        },
+        {
+            "L": 8,
+            "sigma": 2.2,
+            "acceptance probability": 0.26
+        },
+        {
+            "L": 8,
+            "sigma": 2.3000000000000003,
+            "acceptance probability": 0.2
+        },
+        {
+            "L": 8,
+            "sigma": 2.4000000000000004,
+            "acceptance probability": 0.06
+        },
+        {
+            "L": 8,
+            "sigma": 2.6,
+            "acceptance probability": 0.16
+        },
+        {
+            "L": 8,
+            "sigma": 2.7,
+            "acceptance probability": 0.08
+        },
+        {
+            "L": 8,
+            "sigma": 2.8000000000000003,
+            "acceptance probability": 0.1
+        },
+        {
+            "L": 8,
+            "sigma": 2.9000000000000004,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 8,
+            "sigma": 3.1,
+            "acceptance probability": 0.02
+        },
+        {
+            "L": 8,
+            "sigma": 3.2,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 8,
+            "sigma": 3.3000000000000003,
+            "acceptance probability": 0.02
+        },
+        {
+            "L": 8,
+            "sigma": 3.4000000000000004,
+            "acceptance probability": 0.02
+        },
+        {
+            "L": 8,
+            "sigma": 3.6,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 8,
+            "sigma": 3.7,
+            "acceptance probability": 0.02
+        },
+        {
+            "L": 8,
+            "sigma": 3.8000000000000003,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 8,
+            "sigma": 3.9000000000000004,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 8,
+            "sigma": 4.1000000000000005,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 8,
+            "sigma": 4.2,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 8,
+            "sigma": 4.3,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 8,
+            "sigma": 4.4,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 8,
+            "sigma": 4.6000000000000005,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 8,
+            "sigma": 4.7,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 8,
+            "sigma": 4.800000000000001,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 8,
+            "sigma": 4.9,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 8,
+            "sigma": 0.06,
+            "acceptance probability": 0.78
+        },
+        {
+            "L": 8,
+            "sigma": 0.12,
+            "acceptance probability": 0.34
+        },
+        {
+            "L": 8,
+            "sigma": 0.18,
+            "acceptance probability": 0.18
+        },
+        {
+            "L": 8,
+            "sigma": 0.24,
+            "acceptance probability": 0.22
+        },
+        {
+            "L": 8,
+            "sigma": 0.3,
+            "acceptance probability": 0.2
+        },
+        {
+            "L": 8,
+            "sigma": 0.36,
+            "acceptance probability": 0.16
+        },
+        {
+            "L": 8,
+            "sigma": 0.42,
+            "acceptance probability": 0.18
+        },
+        {
+            "L": 8,
+            "sigma": 0.48,
+            "acceptance probability": 0.16
+        },
+        {
+            "L": 8,
+            "sigma": 0.54,
+            "acceptance probability": 0.18
+        },
+        {
+            "L": 8,
+            "sigma": 0.6,
+            "acceptance probability": 0.18
+        },
+        {
+            "L": 8,
+            "sigma": 0.6599999999999999,
+            "acceptance probability": 0.32
+        },
+        {
+            "L": 8,
+            "sigma": 0.72,
+            "acceptance probability": 0.24
+        },
+        {
+            "L": 8,
+            "sigma": 0.78,
+            "acceptance probability": 0.44
+        },
+        {
+            "L": 8,
+            "sigma": 0.84,
+            "acceptance probability": 0.36
+        },
+        {
+            "L": 8,
+            "sigma": 0.8999999999999999,
+            "acceptance probability": 0.42
+        },
+        {
+            "L": 8,
+            "sigma": 0.96,
+            "acceptance probability": 0.56
+        },
+        {
+            "L": 8,
+            "sigma": 1.02,
+            "acceptance probability": 0.5
+        },
+        {
+            "L": 8,
+            "sigma": 1.08,
+            "acceptance probability": 0.64
+        },
+        {
+            "L": 8,
+            "sigma": 1.14,
+            "acceptance probability": 0.72
+        },
+        {
+            "L": 8,
+            "sigma": 1.2,
+            "acceptance probability": 0.54
+        },
+        {
+            "L": 8,
+            "sigma": 1.26,
+            "acceptance probability": 0.58
+        },
+        {
+            "L": 8,
+            "sigma": 1.3199999999999998,
+            "acceptance probability": 0.66
+        },
+        {
+            "L": 8,
+            "sigma": 1.38,
+            "acceptance probability": 0.62
+        },
+        {
+            "L": 8,
+            "sigma": 1.44,
+            "acceptance probability": 0.58
+        },
+        {
+            "L": 8,
+            "sigma": 1.56,
+            "acceptance probability": 0.64
+        },
+        {
+            "L": 8,
+            "sigma": 1.6199999999999999,
+            "acceptance probability": 0.62
+        },
+        {
+            "L": 8,
+            "sigma": 1.68,
+            "acceptance probability": 0.5
+        },
+        {
+            "L": 8,
+            "sigma": 1.74,
+            "acceptance probability": 0.52
+        },
+        {
+            "L": 8,
+            "sigma": 1.7999999999999998,
+            "acceptance probability": 0.4
+        },
+        {
+            "L": 8,
+            "sigma": 1.8599999999999999,
+            "acceptance probability": 0.32
+        },
+        {
+            "L": 8,
+            "sigma": 1.92,
+            "acceptance probability": 0.32
+        },
+        {
+            "L": 8,
+            "sigma": 1.98,
+            "acceptance probability": 0.22
+        },
+        {
+            "L": 8,
+            "sigma": 2.04,
+            "acceptance probability": 0.26
+        },
+        {
+            "L": 8,
+            "sigma": 2.16,
+            "acceptance probability": 0.22
+        },
+        {
+            "L": 8,
+            "sigma": 2.2199999999999998,
+            "acceptance probability": 0.12
+        },
+        {
+            "L": 8,
+            "sigma": 2.28,
+            "acceptance probability": 0.1
+        },
+        {
+            "L": 8,
+            "sigma": 2.34,
+            "acceptance probability": 0.2
+        },
+        {
+            "L": 8,
+            "sigma": 2.4,
+            "acceptance probability": 0.14
+        },
+        {
+            "L": 8,
+            "sigma": 2.46,
+            "acceptance probability": 0.16
+        },
+        {
+            "L": 8,
+            "sigma": 2.52,
+            "acceptance probability": 0.16
+        },
+        {
+            "L": 8,
+            "sigma": 2.58,
+            "acceptance probability": 0.02
+        },
+        {
+            "L": 8,
+            "sigma": 2.6399999999999997,
+            "acceptance probability": 0.04
+        },
+        {
+            "L": 8,
+            "sigma": 2.6999999999999997,
+            "acceptance probability": 0.08
+        },
+        {
+            "L": 8,
+            "sigma": 2.76,
+            "acceptance probability": 0.04
+        },
+        {
+            "L": 8,
+            "sigma": 2.82,
+            "acceptance probability": 0.04
+        },
+        {
+            "L": 8,
+            "sigma": 2.88,
+            "acceptance probability": 0.02
+        },
+        {
+            "L": 8,
+            "sigma": 2.94,
+            "acceptance probability": 0.02
+        },
+        {
+            "L": 7,
+            "sigma": 0.1,
+            "acceptance probability": 1.0
+        },
+        {
+            "L": 7,
+            "sigma": 0.2,
+            "acceptance probability": 1.0
+        },
+        {
+            "L": 7,
+            "sigma": 0.30000000000000004,
+            "acceptance probability": 0.94
+        },
+        {
+            "L": 7,
+            "sigma": 0.4,
+            "acceptance probability": 0.98
+        },
+        {
+            "L": 7,
+            "sigma": 0.6000000000000001,
+            "acceptance probability": 0.98
+        },
+        {
+            "L": 7,
+            "sigma": 0.7000000000000001,
+            "acceptance probability": 1.0
+        },
+        {
+            "L": 7,
+            "sigma": 0.8,
+            "acceptance probability": 0.96
+        },
+        {
+            "L": 7,
+            "sigma": 0.9,
+            "acceptance probability": 1.0
+        },
+        {
+            "L": 7,
+            "sigma": 1.1,
+            "acceptance probability": 1.0
+        },
+        {
+            "L": 7,
+            "sigma": 1.2000000000000002,
+            "acceptance probability": 0.9
+        },
+        {
+            "L": 7,
+            "sigma": 1.3,
+            "acceptance probability": 0.92
+        },
+        {
+            "L": 7,
+            "sigma": 1.4000000000000001,
+            "acceptance probability": 0.84
+        },
+        {
+            "L": 7,
+            "sigma": 1.6,
+            "acceptance probability": 0.72
+        },
+        {
+            "L": 7,
+            "sigma": 1.7000000000000002,
+            "acceptance probability": 0.7
+        },
+        {
+            "L": 7,
+            "sigma": 1.8,
+            "acceptance probability": 0.54
+        },
+        {
+            "L": 7,
+            "sigma": 1.9000000000000001,
+            "acceptance probability": 0.38
+        },
+        {
+            "L": 7,
+            "sigma": 2.1,
+            "acceptance probability": 0.3
+        },
+        {
+            "L": 7,
+            "sigma": 2.2,
+            "acceptance probability": 0.24
+        },
+        {
+            "L": 7,
+            "sigma": 2.3000000000000003,
+            "acceptance probability": 0.14
+        },
+        {
+            "L": 7,
+            "sigma": 2.4000000000000004,
+            "acceptance probability": 0.16
+        },
+        {
+            "L": 7,
+            "sigma": 2.6,
+            "acceptance probability": 0.08
+        },
+        {
+            "L": 7,
+            "sigma": 2.7,
+            "acceptance probability": 0.08
+        },
+        {
+            "L": 7,
+            "sigma": 2.8000000000000003,
+            "acceptance probability": 0.08
+        },
+        {
+            "L": 7,
+            "sigma": 2.9000000000000004,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 7,
+            "sigma": 3.1,
+            "acceptance probability": 0.04
+        },
+        {
+            "L": 7,
+            "sigma": 3.2,
+            "acceptance probability": 0.02
+        },
+        {
+            "L": 7,
+            "sigma": 3.3000000000000003,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 7,
+            "sigma": 3.4000000000000004,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 7,
+            "sigma": 3.6,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 7,
+            "sigma": 3.7,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 7,
+            "sigma": 3.8000000000000003,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 7,
+            "sigma": 3.9000000000000004,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 7,
+            "sigma": 4.1000000000000005,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 7,
+            "sigma": 4.2,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 7,
+            "sigma": 4.3,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 7,
+            "sigma": 4.4,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 7,
+            "sigma": 4.6000000000000005,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 7,
+            "sigma": 4.7,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 7,
+            "sigma": 4.800000000000001,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 7,
+            "sigma": 4.9,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 9,
+            "sigma": 0.1,
+            "acceptance probability": 1.0
+        },
+        {
+            "L": 9,
+            "sigma": 0.2,
+            "acceptance probability": 0.98
+        },
+        {
+            "L": 9,
+            "sigma": 0.30000000000000004,
+            "acceptance probability": 1.0
+        },
+        {
+            "L": 9,
+            "sigma": 0.4,
+            "acceptance probability": 0.94
+        },
+        {
+            "L": 9,
+            "sigma": 0.6000000000000001,
+            "acceptance probability": 1.0
+        },
+        {
+            "L": 9,
+            "sigma": 0.7000000000000001,
+            "acceptance probability": 1.0
+        },
+        {
+            "L": 9,
+            "sigma": 0.8,
+            "acceptance probability": 0.94
+        },
+        {
+            "L": 9,
+            "sigma": 0.9,
+            "acceptance probability": 0.92
+        },
+        {
+            "L": 9,
+            "sigma": 1.1,
+            "acceptance probability": 0.88
+        },
+        {
+            "L": 9,
+            "sigma": 1.2000000000000002,
+            "acceptance probability": 0.64
+        },
+        {
+            "L": 9,
+            "sigma": 1.3,
+            "acceptance probability": 0.58
+        },
+        {
+            "L": 9,
+            "sigma": 1.4000000000000001,
+            "acceptance probability": 0.48
+        },
+        {
+            "L": 9,
+            "sigma": 1.6,
+            "acceptance probability": 0.3
+        },
+        {
+            "L": 9,
+            "sigma": 1.7000000000000002,
+            "acceptance probability": 0.14
+        },
+        {
+            "L": 9,
+            "sigma": 1.8,
+            "acceptance probability": 0.14
+        },
+        {
+            "L": 9,
+            "sigma": 1.9000000000000001,
+            "acceptance probability": 0.1
+        },
+        {
+            "L": 9,
+            "sigma": 2.1,
+            "acceptance probability": 0.06
+        },
+        {
+            "L": 9,
+            "sigma": 2.2,
+            "acceptance probability": 0.02
+        },
+        {
+            "L": 9,
+            "sigma": 2.3000000000000003,
+            "acceptance probability": 0.04
+        },
+        {
+            "L": 9,
+            "sigma": 2.4000000000000004,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 9,
+            "sigma": 2.6,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 9,
+            "sigma": 2.7,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 9,
+            "sigma": 2.8000000000000003,
+            "acceptance probability": 0.02
+        },
+        {
+            "L": 9,
+            "sigma": 2.9000000000000004,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 9,
+            "sigma": 3.1,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 9,
+            "sigma": 3.2,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 9,
+            "sigma": 3.3000000000000003,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 9,
+            "sigma": 3.4000000000000004,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 9,
+            "sigma": 3.6,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 9,
+            "sigma": 3.7,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 9,
+            "sigma": 3.8000000000000003,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 9,
+            "sigma": 3.9000000000000004,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 9,
+            "sigma": 4.1000000000000005,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 9,
+            "sigma": 4.2,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 9,
+            "sigma": 4.3,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 9,
+            "sigma": 4.4,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 9,
+            "sigma": 4.6000000000000005,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 9,
+            "sigma": 4.7,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 9,
+            "sigma": 4.800000000000001,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 9,
+            "sigma": 4.9,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 12,
+            "sigma": 0.0,
+            "acceptance probability": 1.0
+        },
+        {
+            "L": 12,
+            "sigma": 0.1,
+            "acceptance probability": 0.4
+        },
+        {
+            "L": 12,
+            "sigma": 0.2,
+            "acceptance probability": 0.18
+        },
+        {
+            "L": 12,
+            "sigma": 0.30000000000000004,
+            "acceptance probability": 0.28
+        },
+        {
+            "L": 12,
+            "sigma": 0.4,
+            "acceptance probability": 0.36
+        },
+        {
+            "L": 12,
+            "sigma": 0.5,
+            "acceptance probability": 0.66
+        },
+        {
+            "L": 12,
+            "sigma": 0.6000000000000001,
+            "acceptance probability": 0.72
+        },
+        {
+            "L": 12,
+            "sigma": 0.7000000000000001,
+            "acceptance probability": 0.86
+        },
+        {
+            "L": 12,
+            "sigma": 0.8,
+            "acceptance probability": 0.88
+        },
+        {
+            "L": 12,
+            "sigma": 0.9,
+            "acceptance probability": 0.7
+        },
+        {
+            "L": 12,
+            "sigma": 1.0,
+            "acceptance probability": 0.74
+        },
+        {
+            "L": 12,
+            "sigma": 1.1,
+            "acceptance probability": 0.46
+        },
+        {
+            "L": 12,
+            "sigma": 1.2000000000000002,
+            "acceptance probability": 0.32
+        },
+        {
+            "L": 12,
+            "sigma": 1.3,
+            "acceptance probability": 0.16
+        },
+        {
+            "L": 12,
+            "sigma": 1.4000000000000001,
+            "acceptance probability": 0.12
+        },
+        {
+            "L": 12,
+            "sigma": 1.5,
+            "acceptance probability": 0.04
+        },
+        {
+            "L": 12,
+            "sigma": 1.6,
+            "acceptance probability": 0.02
+        },
+        {
+            "L": 12,
+            "sigma": 1.7000000000000002,
+            "acceptance probability": 0.02
+        },
+        {
+            "L": 12,
+            "sigma": 1.8,
+            "acceptance probability": 0.02
+        },
+        {
+            "L": 12,
+            "sigma": 1.9000000000000001,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 12,
+            "sigma": 2.0,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 12,
+            "sigma": 2.1,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 12,
+            "sigma": 2.2,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 12,
+            "sigma": 2.3000000000000003,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 12,
+            "sigma": 2.4000000000000004,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 12,
+            "sigma": 2.5,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 12,
+            "sigma": 2.6,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 12,
+            "sigma": 2.7,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 12,
+            "sigma": 2.8000000000000003,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 12,
+            "sigma": 2.9000000000000004,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 12,
+            "sigma": 3.0,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 12,
+            "sigma": 3.1,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 12,
+            "sigma": 3.2,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 12,
+            "sigma": 3.3000000000000003,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 12,
+            "sigma": 3.4000000000000004,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 12,
+            "sigma": 3.5,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 12,
+            "sigma": 3.6,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 12,
+            "sigma": 3.7,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 12,
+            "sigma": 3.8000000000000003,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 12,
+            "sigma": 3.9000000000000004,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 12,
+            "sigma": 4.0,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 12,
+            "sigma": 4.1000000000000005,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 12,
+            "sigma": 4.2,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 12,
+            "sigma": 4.3,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 12,
+            "sigma": 4.4,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 12,
+            "sigma": 4.5,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 12,
+            "sigma": 4.6000000000000005,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 12,
+            "sigma": 4.7,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 12,
+            "sigma": 4.800000000000001,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 12,
+            "sigma": 4.9,
+            "acceptance probability": 0.0
+        },
+        {
+            "L": 5,
+            "sigma": 0.1,
+            "acceptance probability": 0.94
+        },
+        {
+            "L": 5,
+            "sigma": 0.2,
+            "acceptance probability": 0.92
+        }
+    ],
+    "max sigma": [
+        {
+            "L": 12,
+            "max sigma": 2.0
+        },
+        {
+            "L": 11,
+            "max sigma": 2.25
+        },
+        {
+            "L": 10,
+            "max sigma": 2.5
+        },
+        {
+            "L": 9,
+            "max sigma": 2.8
+        },
+        {
+            "L": 8,
+            "max sigma": 3.8
+        },
+        {
+            "L": 7,
+            "max sigma": 4.0
+        },
+        {
+            "L": 6,
+            "max sigma": 5.0
+        },
+        {
+            "L": 5,
+            "max sigma": 5.5
+        },
+        {
+            "L": 4,
+            "max sigma": 1
+        },
+        {
+            "L": 3,
+            "max sigma": 1
+        }
+    ]
+}
