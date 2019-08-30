@@ -36,7 +36,7 @@ Commands:
   uniform    generate graphs with uniform weight
 ```
 
-There are currently three optimization options at your disposal -- The first, `ratcon`, is a carving-width-based approach described in [insert citation here](https://insertlinkhere) to optimize planar tensor network contractions:
+There are currently three optimization options at your disposal -- The first, `ratcon`, is a carving-width-based approach described in [***Carving-width and contraction trees for tensor networks***](https://arxiv.org/abs/1908.11034) to optimize planar tensor network contractions:
 ```
 $ ratcon --help
 Usage: ratcon [OPTIONS]
