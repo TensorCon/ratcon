@@ -280,7 +280,7 @@ def run_ga(G, representation, **kwargs):
         population=tb.population(rep_object.population_size),
         toolbox=tb,
         cxpb=rep_object.crossover_rate,
-        mutpb=rep_object.gene_mutation_rate,
+        mutpb=rep_object.chromosome_mutation_rate,
         ngen=rep_object.num_generations,
         stats=stats,
         halloffame=hof,

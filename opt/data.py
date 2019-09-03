@@ -413,6 +413,7 @@ class GenconResultsAggregator(ResultsAggregator):
         gencon.ga_setup(self.rep)
         """Runs gencon on a container of graphs"""
         for graph in graph_container.graphs():
+            print(f"Running gencon on {graph.name}")
             self.run_graph(graph)
 
     def write(self):
