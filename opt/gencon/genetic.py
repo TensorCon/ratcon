@@ -8,97 +8,137 @@ import opt.contraction as contraction
 import opt.gencon.pathopt as pathopt
 import opt.gencon.backbite as backbite
 
-# evaluates the fitness of an individual represented by a list of edges
-def evaluate_edge(individual, graph):
-    return (
-        contraction.contract_fast(graph, individual, floats=[])[0],
-    )
+
+class Representation:
+    def __init__(
+        self,
+        tb,
+        graph,
+        representation,
+        num_generations,
+        population_size,
+        mutation_rate,
+        indpb,
+        crossover_rate
+    ):
+        self.graph = graph
+        self.representation = representation
+        self.num_generations = num_generations
+        self.population_size = population_size
+        self.chromosome_mutation_rate = mutation_rate
+        self.gene_mutation_rate = indpb
+        self.crossover_rate = crossover_rate
+        self.register(tb)
+
+    def evaluate_fitness(self, *args, **kwargs):
+        raise NotImplementedError
+
+    def register(self, tb):
+        # set up paralellism
+        tb.register("select", tools.selTournament, tournsize=20)
+        tb.register("evaluate", self.evaluate_fitness)
 
 
-# evaluates the fitness of an individual represented by a list of floating points
-def evaluate_float(individual, graph):
-    return (
-        contraction.contract_fast(graph, graph.edge_list, floats=floats_to_ordering(individual))[0],
-    )
+class EdgeRepresentation(Representation):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+
+    def evaluate_fitness(self, individual):
+        return (contraction.contract_fast(self.graph, individual, floats=[])[0],)
+
+    # registers an individual/population represented by a list of edges
+    def register(self, tb):
+        super().register(tb)
+
+        edges = self.graph.edges()
+        length = len(edges)
+        self.graph.edge_list = list(edges)
+
+        # register 'indices' function, which
+        # takes a random ordering of the graph's edges
+        tb.register("indices", random.sample, edges, length)
+
+        tb.register("individual", tools.initIterate, creator.Individual, tb.indices)
+
+        tb.register("population", tools.initRepeat, list, tb.individual)
+
+        tb.register("mate", cxPartialyMatchedM)
+
+        tb.register("mutate", tools.mutShuffleIndexes, indpb=self.gene_mutation_rate)
 
 
-# evaluates the fitness of an individual represented by a list of nodes
-def evaluate_node(individual, graph, limit_outer):
-    return (pathopt.ctime(graph, individual, limit_outer)[0],)
+class FloatRepresentation(Representation):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+
+    # evaluates the fitness of an individual represented by a list of floating points
+    def evaluate_fitness(self, individual):
+        return (contraction.contract_fast(self.graph, self.graph.edge_list, floats=floats_to_ordering(individual))[0],)
+
+    # registers an individual/population represented by a list of floats
+    def register(self, tb):
+        super().register(tb)
+
+        length = len(self.graph.edges())
+        self.graph.edge_list = list(self.graph.edges())
+
+        tb.register("rand", random.random)
+
+        tb.register("individual", tools.initRepeat, creator.Individual, tb.rand, n=length)
+
+        tb.register("population", tools.initRepeat, list, tb.individual)
+
+        tb.register("mate", tools.cxTwoPoint)
+
+        tb.register("mutate", tools.mutGaussian, mu=0, sigma=1, indpb=self.gene_mutation_rate)
 
 
-# evaluates the fitness of an individual represented by a hamiltonian path
-def evaluate_ham(individual):
-    return (individual.cost(),)
+class NodeRepresentation(Representation):
+    def __init__(self, *args, limit_outer=False, **kwargs):
+        super().__init__(self, *args, **kwargs)
+        self.limit_outer = limit_outer
+
+    # evaluates the fitness of an individual represented by a list of nodes
+    def evaluate_fitness(self, individual):
+        return (pathopt.ctime(self.graph, individual, self.limit_outer)[0],)
 
 
-# registers an individual/population represented by a list of floats
-def register_float(tb, G, indpb):
-    length = len(G.edges())
-    G.edge_list = list(G.edges())
+    def register(self, tb):
+        super().register(tb)
 
-    tb.register("rand", random.random)
+        nodes = self.graph.nodes()
+        length = len(nodes)
 
-    tb.register("individual", tools.initRepeat, creator.Individual, tb.rand, n=length)
+        # register 'indices' function, which
+        # takes a random ordering of the graph's nodes
+        tb.register("indices", random.sample, nodes, length)
 
-    tb.register("population", tools.initRepeat, list, tb.individual)
+        tb.register("individual", tools.initIterate, creator.Individual, tb.indices)
 
-    tb.register("evaluate", evaluate_float, graph=G)
+        tb.register("population", tools.initRepeat, list, tb.individual)
 
-    tb.register("mate", tools.cxTwoPoint)
+        tb.register("mate", cxPartialyMatchedM)
 
-    tb.register("mutate", tools.mutGaussian, mu=0, sigma=1, indpb=indpb)
-
-
-# registers an individual/population represented by a list of edges
-def register_edge(tb, G, indpb):
-    edges = G.edges()
-    length = len(edges)
-    G.edge_list = list(edges)
-
-    # register 'indices' function, which
-    # takes a random ordering of the graph's edges
-    tb.register("indices", random.sample, edges, length)
-
-    tb.register("individual", tools.initIterate, creator.Individual, tb.indices)
-
-    tb.register("population", tools.initRepeat, list, tb.individual)
-
-    tb.register("evaluate", evaluate_edge, graph=G)
-
-    tb.register("mate", cxPartialyMatchedM)
-
-    tb.register("mutate", tools.mutShuffleIndexes, indpb=indpb)
+        tb.register("mutate", tools.mutShuffleIndexes, indpb=0.1)
 
 
-def register_node(tb, G, limit_outer):
-    nodes = G.nodes()
-    length = len(nodes)
+class HamiltonianRepresentation(Representation):
+    def __init__(self, *args, limit_outer=False, **kwargs):
+        super().__init__(self, *args, **kwargs)
 
-    # register 'indices' function, which
-    # takes a random ordering of the graph's nodes
-    tb.register("indices", random.sample, nodes, length)
-
-    tb.register("individual", tools.initIterate, creator.Individual, tb.indices)
-
-    tb.register("population", tools.initRepeat, list, tb.individual)
-
-    tb.register("evaluate", evaluate_node, graph=G, limit_outer=limit_outer)
-
-    tb.register("mate", cxPartialyMatchedM)
-
-    tb.register("mutate", tools.mutShuffleIndexes, indpb=0.1)
+    # evaluates the fitness of an individual represented by a hamiltonian path
+    def evaluate_fitness(self, individual):
+        return (individual.cost(),)
 
 
-def register_ham(tb, G):
+    def register(self, tb):
+        super().register(tb)
 
-    tb.register("individual", creator.Individual, G)
+        tb.register("individual", creator.Individual, self.graph)
 
-    tb.register("population", tools.initRepeat, list, tb.individual)
+        tb.register("population", tools.initRepeat, list, tb.individual)
 
-    tb.register("evaluate", evaluate_ham)
-
-    tb.register("mutate", backbite.backbite)
+        tb.register("mutate", backbite.backbite)
 
 
 def floats_to_ordering(floats):
@@ -201,12 +241,12 @@ def cxOrderedM(ind1, ind2):
     return ind1, ind2
 
 
-def ga_setup(register):
+def ga_setup(representation):
     # set up fitness, negative weight means we are trying to minimize cost
     creator.create("FitnessMin", base.Fitness, weights=(-1.0,))
 
     # set up individual with the fitness from above
-    if register.__name__ == "register_ham":
+    if representation == "ham":
         creator.create(
             "Individual", backbite.Hamiltonian, fitness=creator.FitnessMin
         )
@@ -215,22 +255,18 @@ def ga_setup(register):
 
 
 
-def run_ga(G, register, limit_outer, num_generations, population_size, mutation_rate, indpb, crossover_rate):
-    assert callable(register)
+def run_ga(G, representation, **kwargs):
 
-    # set up toolbox
-    toolbox = base.Toolbox()
+    rep_finder = {
+                    'float': FloatRepresentation,
+                    'edge': EdgeRepresentation
+                 }
 
-    # set up paralellism
+    tb = base.Toolbox()
+    rep_object = rep_finder[representation](tb, G, representation, **kwargs)
+
     pool = multiprocessing.Pool()
-    toolbox.register("map", pool.map)
-
-    if register.__name__ == "register_node":
-        register(toolbox, G, limit_outer)
-    else:
-        register(toolbox, G, indpb)
-
-    toolbox.register("select", tools.selTournament, tournsize=20)
+    tb.register("map", pool.map)
 
     hof = tools.HallOfFame(1)
 
@@ -240,25 +276,16 @@ def run_ga(G, register, limit_outer, num_generations, population_size, mutation_
     stats.register("min", lambda v: min(map(lambda x: x[0], v)))
     stats.register("max", lambda v: max(map(lambda x: x[0], v)))
 
-    pop = toolbox.population(population_size)
-    hof = tools.HallOfFame(1)
-    cxpb = crossover_rate
-    mutpb = mutation_rate
-    ngen = num_generations
-    verbose = True
-
-    exec_ga = lambda: algorithms.eaSimple(
-        pop,
-        toolbox=toolbox,
-        cxpb=cxpb,
-        mutpb=mutpb,
-        ngen=ngen,
+    pop, log = algorithms.eaSimple(
+        population=tb.population(rep_object.population_size),
+        toolbox=tb,
+        cxpb=rep_object.crossover_rate,
+        mutpb=rep_object.gene_mutation_rate,
+        ngen=rep_object.num_generations,
         stats=stats,
         halloffame=hof,
-        verbose=verbose,
+        verbose=True,
     )
-
-    pop, log = exec_ga()
 
     pool.terminate()
 

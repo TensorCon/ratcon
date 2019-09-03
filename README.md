@@ -1,6 +1,6 @@
 # Tensor Network Contraction Order Optimization
 
-This project provides a suite of tools to help minimize both the time and space complexity associated with tensor network contractions. This source primarily provides a means to confirm the theoretical found within [***Carving-width and contraction trees for tensor networks***](https://arxiv.org/abs/1908.11034).
+This project provides entry points into three tensor network contraction complexity minimization programs, but serves to primarily provides a means to confirm the theoretical found within [***Carving-width and contraction trees for tensor networks***](https://arxiv.org/abs/1908.11034).
 
 ## License
 

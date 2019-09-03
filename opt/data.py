@@ -348,9 +348,6 @@ class GenconResultsAggregator(ResultsAggregator):
 
         ordering_path: file path to which best contraction sequence will be written
 
-        register: a mapping from supported individal representations to their instantiation functions
-            as defined in the gencon package
-
         num_generations: the number of generations to evolve the population
 
         population size: the size of the population
@@ -370,12 +367,6 @@ class GenconResultsAggregator(ResultsAggregator):
         super().__init__()
         self.outdir = out_dir
         self.ordering_path = f"{self.outdir}/gencon_order.txt"
-
-        self.register = {
-            'float': gencon.register_float,
-            'edge': gencon.register_edge
-        }
-
         self.num_generations = num_generations
         self.population_size = population_size
         self.mutation_rate = mutation_rate
@@ -391,8 +382,7 @@ class GenconResultsAggregator(ResultsAggregator):
         # run the genetic algorithm
         res = gencon.run_ga(
                 graph,
-                register=self.register[self.rep],
-                limit_outer=False,
+                representation=self.rep,
                 num_generations=self.num_generations,
                 population_size=self.population_size,
                 mutation_rate=self.mutation_rate,
@@ -420,7 +410,7 @@ class GenconResultsAggregator(ResultsAggregator):
         self.finished[graph.id] = True
 
     def run_container(self, graph_container):
-        gencon.ga_setup(self.register[self.rep])
+        gencon.ga_setup(self.rep)
         """Runs gencon on a container of graphs"""
         for graph in graph_container.graphs():
             self.run_graph(graph)
