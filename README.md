@@ -2,6 +2,17 @@
 
 This project provides a suite of tools to help minimize both the time and space complexity associated with tensor network contractions. This source primarily provides a means to empirically confirm the theoretical results of [***Carving-width and contraction trees for tensor networks***](https://arxiv.org/abs/1908.11034).
 
+## BibTex (preprint)
+
+```
+@article{jakes2019carving,
+  title={Carving-width and contraction trees for tensor networks},
+  author={Jakes-Schauer, J and Anekstein, D and Wocjan, P},
+  journal={arXiv preprint arXiv:1908.11034},
+  year={2019}
+}
+```
+
 ## License
 
 All source, with the exception of the netcon submodule, are licensed under a GNU LESSER GENERAL PUBLIC LICENSE. We refer all users to our mirror of the [netcon repository](https://github.com/TensorCon/netcon) for its licensing information.
