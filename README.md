@@ -1,6 +1,17 @@
 # Tensor Network Contraction Order Optimization
 
-This project provides entry points into three tensor network contraction complexity minimization programs, but primarily serves to provide a means to confirm the theoretical conclusions of [***Carving-width and contraction trees for tensor networks***](https://arxiv.org/abs/1908.11034).
+This project provides entry points into three tensor network contraction complexity minimization programs, and primarily serves to provide a means to confirm the theoretical conclusions of [***Carving-width and contraction trees for tensor networks***](https://arxiv.org/abs/1908.11034).
+
+## BibTex (preprint)
+
+```
+@article{jakes2019carving,
+  title={Carving-width and contraction trees for tensor networks},
+  author={Jakes-Schauer, J and Anekstein, D and Wocjan, P},
+  journal={arXiv preprint arXiv:1908.11034},
+  year={2019}
+}
+```
 
 ## License
 
@@ -36,7 +47,9 @@ Commands:
   uniform    generate graphs with uniform weight
 ```
 
-There are currently three optimization options at your disposal -- The first, `ratcon`, is a carving-width-based approach described in [***Carving-width and contraction trees for tensor networks***](https://arxiv.org/abs/1908.11034) to optimize planar tensor network contractions:
+### ratcon
+
+There are currently three optimization options at your disposal -- The first, `ratcon`, is a carving-width-based approach described in [***Carving-width and contraction trees for tensor networks***](https://arxiv.org/abs/1908.11034) to optimize _planar_ tensor network contractions:
 ```
 $ ratcon --help
 Usage: ratcon [OPTIONS]
@@ -59,6 +72,8 @@ Options:
                                   edge-contraction results  [default: False]
   --help                          Show this message and exit.
 ```
+
+### gencon
 
 The second, `gencon`, is a genetic algorithm-based approach to optimize arbitrary tensor network contractions:
 ```
@@ -87,6 +102,8 @@ Options:
   --write BOOLEAN                a flag to write results  [default: True]
   --help                         Show this message and exit.
 ```
+
+### netcon
 
 The third, `netcon`, is an approach described in [***Faster identification of optimal contraction sequences for tensor networks***](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.90.033315) and calculates the optimal contraction order for an arbitrary tensor network:
 ```
