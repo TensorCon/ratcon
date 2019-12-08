@@ -297,7 +297,7 @@ def _save_graphs(L, results, weighting_type, out):
         if weighting_type != "gaussian":
             filename = f"{out}/L{L}_{weighting_type}_{i}"
         else:
-            filename = f"{out}/L{L}_{weighting_type}_{graph.lam}_{graph.sig}_{i}"
+            filename = f"{out}/L{L}_{weighting_type}_{i}_{graph.lam}_{graph.sig}"
 
         # save the graph as a .png and a .gpickle
         print(f"Writing sample {i}")
