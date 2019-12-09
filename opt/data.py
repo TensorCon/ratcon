@@ -608,7 +608,7 @@ class NetconResultsAggregator(ResultsAggregator):
                 # convert the netcon representation of edge order
                 # to a (u,v) representation
                 edge_id_order = [int(s.strip()) for s in order_string.split(" ")]
-                order = [graph.edge_map[i] for i in edge_id_order]
+                order = [graph.edge_map[j] for j in edge_id_order]
 
                 self.ordering[graph_id] = order
 

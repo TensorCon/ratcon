@@ -146,12 +146,11 @@ def generate_gaussian(graph, L, lambda_, sigma_=None, max_sigma=None, even=False
         # difference between middle of the edge and the center of the grid
         m = math.sqrt(((c[0] - m1) ** 2.0) + ((c[1] - m2) ** 2.0))
 
-        # the weight to assign
-        weight = math.ceil(
+        # the weight to assign, minimum of 2
+        weight = 2 + math.ceil(
             (lambda_ - max_change) * math.exp((-1 * sigma_) * abs(m))
             + max_change
             - change
-            + 0.00001
         )
 
         # assign the weight to the edge (u,v)

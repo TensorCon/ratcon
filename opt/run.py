@@ -26,14 +26,14 @@ def generate_tests():
     "--num_samples",
     "n",
     required=True,
-    type=click.IntRange(min=1, clamp=True),
+    type=click.IntRange(min=2, clamp=True),
     help="the number of graphs to generate",
 )
 @click.option(
     "--maxD",
     "D",
     required=False,
-    type=int,
+    type=click.IntRange(min=2, clamp=True),
     default=None,
     show_default=True,
     help="the maximum bond dimension in the graph",

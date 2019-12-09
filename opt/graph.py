@@ -6,7 +6,7 @@ def edge_weights(graph):
     return map(lambda e: graph[e[0]][e[1]]["weight"], graph.edges())
 
 
-def prune_trivial_edges(G, copy=True, identity=0):
+def prune_trivial_edges(H, copy=True, identity=0):
     """Returns a graph from which all edges weighted `identity` have been removed.
 
     Arguments:
@@ -17,8 +17,7 @@ def prune_trivial_edges(G, copy=True, identity=0):
     """
     assert identity in (0,1)
 
-    if copy:
-        G = G.copy()
+    G = H.copy() if copy else H
 
     for u, v in list(G.edges()):
         if G[u][v]["weight"] == identity:
