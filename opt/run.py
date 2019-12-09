@@ -83,7 +83,7 @@ def lognormal(minL, maxL, n, seed, out, max_cw):
 @click.option(
     "--maxD",
     "D",
-    required=False,
+    required=True,
     type=int,
     default=None,
     show_default=True,
