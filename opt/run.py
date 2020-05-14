@@ -39,8 +39,9 @@ def generate_tests():
     help="the maximum bond dimension in the graph",
 )
 @click.option("--out", required=True, help="the folder to write generated files to")
-def uniform(minL, maxL, n, D, out):
-    gen_tests('uniform', n, minL, maxL, out, D=D)
+@click.option("--gen-image", is_flag=True, help="when supplied, an image of the tensor network is generated")
+def uniform(minL, maxL, n, D, out, gen_image):
+    gen_tests('uniform', n, minL, maxL, out, D=D, gen_image=gen_image)
 
 
 @generate_tests.command(help='generate graphs weights sampled from lognormal distributions')

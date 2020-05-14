@@ -286,7 +286,7 @@ def generate_lognormals(n, L, max_cw):
     return _gen_samples(n, gen_func, max_cw)
 
 
-def _save_graphs(L, results, weighting_type, out):
+def _save_graphs(L, results, weighting_type, out, gen_image=False):
     """Saves graphs in various formats"""
 
     if not os.path.exists(out):
@@ -302,7 +302,9 @@ def _save_graphs(L, results, weighting_type, out):
         print(f"Writing sample {i}")
         nx.write_gpickle(graph, filename + ".gpickle")
         nx.write_weighted_edgelist(graph, filename + ".ew")
-        view.write_graph(graph, filename + ".png")
+        
+        if gen_image:
+            view.write_graph(graph, filename + ".png")
 
 
 def _get_samples(n, L, weighting_type, **kwargs):
@@ -327,7 +329,7 @@ def _get_samples(n, L, weighting_type, **kwargs):
 
     return samples
 
-def gen_tests(weighting_type, n, lmin, lmax, out, **kwargs):
+def gen_tests(weighting_type, n, lmin, lmax, out, gen_image=False, **kwargs):
     """Generates a set of graphs for use in testing"""
 
     if weighting_type == "uniform" and n > 1:
@@ -336,4 +338,4 @@ def gen_tests(weighting_type, n, lmin, lmax, out, **kwargs):
 
     for L in range(lmin, lmax + 1):
         samples = _get_samples(n, L, weighting_type, **kwargs)
-        _save_graphs(L, samples, weighting_type, out)
+        _save_graphs(L, samples, weighting_type, out, gen_image)
