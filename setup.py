@@ -16,7 +16,7 @@ setup(
         'deap>=1.2.2',
         'pytest==5.0.1',
         'oct2py==4.0.6',
-        'numpy==1.17.0',
+        'numpy==1.22.0',
         'matplotlib==2.2.2;implementation_name != "pypy"',
         'scipy>=1.3.1;implementation_name != "pypy"'
     ],
